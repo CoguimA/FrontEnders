@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="stylesheet" href="/css/recuperacao-senha.css"
 
-
-    <!--scripts -->
+    <!--script-->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -49,6 +49,82 @@
 
 </div>
     <body>
+
+        <!--Cadastro-->
+
+        <div class="container-cadastro">
+            <form id="forms-cadastro">
+              <h2>Cadastro</h2>
+              <hr/>
+        
+              <label for="name">Nome Completo: </label>
+              <input type="text" id="name" placeholder="Nome" />
+        
+              <label for="input_email">E-mail:</label>
+              <input type="email" name="input-email" id="email" placeholder="E-mail" value='' required />
+        
+              <label for="input_senha">Senha:</label>
+              <input type="password" name="input_pass" id="pass" placeholder=" Crie sua senha" value='' required>
+        
+              <label for="input_senha">Confirme sua senha: </label>
+              <input type="password" name="input_pass" id="confirm" placeholder="Confirme sua senha" value='' required />
+        
+              <div class="docs">
+                <div id="docschild1">
+                  <label for="input_rg">RG:</label>
+                  <input type="text" name="input_id" id="rg-mask" placeholder="Ex.: 00.000.000-0" minlength="4" maxlength="11" required />
+                </div>
+        
+                <div id="docschild2">
+                  <label for="input_cpf">CPF:</label>
+                  <input type="text" name="input_cpf" id="cpf-mask" placeholder="Ex.: 000.000.000-00" minlength="4"  maxlength="11" required />
+                </div>
+              </div>
+        
+              <div class="endereco1">
+                <div class="child1">
+                  <label for="input_cep">CEP:</label>
+                  <input type="text" name="input_cep" id="cep" maxlength="8" required />
+                </div>
+        
+                <div class="child2">
+                  <label for="input_cidade">Cidade:</label>
+                  <input type="text" name="input_cidade" id="cidade" />
+                </div>
+        
+                <div class="child3">
+                  <label for="input_estado">Estado:</label>
+                  <input type="text" name="estado" id="estado" />
+                </div>
+              </div>
+        
+              <div class="endereco1">
+                <div class="child4">
+                  <label for="input_logradouro">Logradouro:</label>
+                  <input type="text" name="input_rua" id="logradouro" />
+                </div>
+        
+                <div class="child5">
+                  <label for="input_numero">Número:</label>
+                  <input type="text" name="input_number" id="number" />
+                </div>
+              </div>
+        
+              <div class="endereco1">
+                <div class="child6">
+                  <label for="input_complemento">Complemento:</label>
+                  <input type="text" name="input_compl" id="complemento" />
+                </div>
+        
+                <div class="child6">
+                  <label for="input_bairro">Bairro</label>
+                  <input type="text" name="input_bairro" id="bairro" />
+                </div>
+              </div>
+        
+              <button class="btn-cadastro" id="btn-cadastro">Cadastrar</button>
+            </form>
+          </div>
 
         <footer class="rodape">
             <p class="rodape-paragrafo">FrontEnders&copy Senac Noite</p>
