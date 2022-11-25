@@ -22,7 +22,8 @@ header, .navbar {
     padding-bottom: 0;
 }
 #logo {
-    width: 200px;
+    width: 80px;
+    border-radius: 10px;
 }
 
 .navbar-brantd {

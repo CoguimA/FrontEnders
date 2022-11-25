@@ -55,3 +55,26 @@ header, .navbar {
     color: black;
     padding: 5px;
   }
+
+  .add-cart {
+    position: absolute;
+    width: 100%;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cart ion-icon {
+    vertical-align: bottom;
+    font-size: 20px;
+    padding-right: 5px;
+}
+    
+    .cart {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
