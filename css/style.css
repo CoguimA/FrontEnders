@@ -77,3 +77,12 @@ body{
     text-align: center;
 }
 
+.imagem{
+    height: 200%;
+
+}
+body{
+    background-image: url("file:///C:/Users/programadores.carioc/Desktop/FrontEnders/img/planodefundohome.jpg");
+    background-size: cover;
+}
+
