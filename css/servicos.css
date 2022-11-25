@@ -1,7 +1,9 @@
 /* Gerais*/
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
+
 .row {
     margin: 0;
 }
@@ -16,15 +18,20 @@ p, li {
 /* Barra de Navegação*/
 header, .navbar {
    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  
 }
-#nav-container {
+.container {
     padding-top: 0;
     padding-bottom: 0;
 }
 #logo {
+    
     width: 80px;
     border-radius: 10px;
+    padding-top: -13px;
+    border: solid 2px black;
 }
+
 
 .navbar-brantd {
     padding: 0;
@@ -39,7 +46,6 @@ header, .navbar {
 .navbar-expand-lg .navbar-nav .navbar-link {
     padding: 1rem .8rem;
 }
-
 /*Estilizando rodapé*/
 .rodape{
     background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);

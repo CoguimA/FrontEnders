@@ -11,43 +11,133 @@
 <link href="https: //fonts.googleapis.com/css2?family= Roboto: wght @100 & display=swap" rel="stylesheet">
     <!--bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/estilo.css"
+    
+
+    <!--scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!--Fonts Awseome-->
+    <script src="https://kit.fontawesome.com/5b96ada2b9.js" crossorigin="anonymous"></script>
+    <!--Progress Bar-->
+    <script src="./js/index.js"></script>
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
+
+<!--nav-->
 <body>
+
     <div class="container" id="nav-container">
         <nav class="navbar navbar-expand-lg fixed-top">
             <a href="#" class="navbar-brand">
                 <img id="logo" src="./img/fronteders.jpg" alt="Front Enders">
-            </a>
+           </a>
             <button class="navbar-togller" type="button" data-toggler="collapse" data-target="#navbar-links" aria-controls="navbar-links
             " aria-expanded="false" aria-label="toggie navigation">
-                <span class="navbar-toggler-icon"></span>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links"></div>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="./index.html" id="Home-menu">Home</a>
-                    <a class="nav-item nav-link" href="./html/contato.html" id="about-sobre nos">Sobre Nós</a>
-                    <a class="nav-item nav-link" href="./html/servicos.html" id="Contact-Login">Serviços</a>
-                    <a class="nav-item nav-link" href="./html/cadastro.html" id="services-cadastros">Cadastro</a>
-                    <a class="nav-item nav-link" href="./html/login.html" id="Contact-Login">Login</a>
-                </div>
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links"></div>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html" id="Home-menu">Home</a>                
+                <a class="nav-item nav-link" href="./html/contato.html" id="about-sobre nós">Sobre Nós</a>
+                <a class="nav-item nav-link" href="./html/servicos.html" id="Home-menu">Serviços</a>
+                <a class="nav-item nav-link" href="./html/cadastro.html" id="services-cadastros">Cadastro</a>
+                <a class="nav-item nav-link" href="./html/login.html" id="Contact-Login">Login</a>
+                
+            </div>
             </button>
         </nav>
-    </div>
-   
-   
-        <footer class="rodape">
-            <p class="rodape-paragrafo">FrontEnders&copy Senac Noite</p>
-        </footer>
+      </div>
+<class="box">
+    <img src="./img/planodefundohome.jpg">
+</div>
 
-    <script src="./js/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <!--Fonts Awseome-->
-    <script src="https://kit.fontawesome.com/5b96ada2b9.js" crossorigin="anonymous"></script>
-    <!--Progress Bar-->
-    <script src="./js/progressbar.min.js"></script>
-    <!--Parallax-->
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<style>
+div.box {
+	width: 200px;
+	display: inline-block;
+}
+</style>
+<body>
+    <div class="principal">
+        <div class="circle"></div>
+        <div class="parte-texto">
+          <p id="chamada">
+            Encontre layouts profissionais para o seu projeto front-end!
+          </p>
+          <p class="obtenha">
+            Obtenha seu front-end de forma rápida e prática.
+          </p>
+          <button class="assine" id="assine-meio" onclick='cadastro2()'>Assine AGORA</button>
+        </div>
+    
+     <!--Planos-->
+    
+      <div class="planos">
+        <div class="btn">
+          <button class="assine" id="planoMensal">Planos Mensais</button>
+          <button class="botoes" id="planoAnual">Planos Anuais</button>
+        </div>
+    
+        <div class="precos-sm">
+    
+          <div class="plan-sm">
+            <p class="preco1">FRONTENDER BASIC</p>
+            <hr>
+            <p class="plano-mensal">Plano Mensal</p>
+            <h2 class="valor1"> R$ 24,90/mês</h2>
+    
+            <div class="texto-abaixo">
+              <p class="texto-abaixo2">Os melhores layouts, fontes e paletas de cores.</p>
+            </div>
+    
+            <button class="assine" onclick='cadastro2()'>Assine AGORA</button>
+          </div>
+    
+          <div class="plan-sm">
+            <p class="preco1">FRONTENDER PREMIUM</p>
+            <hr>
+            <p class="plano-mensal2">Plano Mensal</p>
+            <h2 class="valor2"> R$ 49,90/mês</h2>
+    
+            <div class="texto-abaixo">
+              <p class="texto-abaixo2">Os melhores layouts, fontes, paletas de cores e 25 imagens.</p>
+            </div>
+    
+            <button class="assine" onclick='cadastro2()'>Assine AGORA</button>
+    
+          </div>
+    
+          <div class="plan-sm">
+    
+            <p class="preco1">FRONTENDER PRO</p>
+            <hr>
+            <p class="plano-mensal3">Plano Mensal</p>
+            <h2 class="valor3"> R$ 74,90/mês</h2>
+    
+            <div class="texto-abaixo">
+              <p class="texto-abaixo2">Os melhores layouts, fontes, paletas de cores e imagens ilimitadas.</p>
+            </div>
+    
+            <button class="assine" onclick='cadastro2()'>Assine AGORA</button>
+    
+    
+          </div>
+        </div>
+      </div>
+    <body>
+      <footer class="rodape">
+        <p class="rodape-paragrafo">FrontEnders&copy Senac Noite</p>
+    </footer>
+
+   <script src="./js/index.js"></script>
+   <script src="./js/home.js"></script>
+   <script src="/FrontEnders-main/js/scripts.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="./assets/js/jquery-3.6.0.js"></script>
+   <script src="./assets/js/bootstrap.min.js"></script>
 </body>
 </html>

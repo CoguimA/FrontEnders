@@ -22,8 +22,11 @@ header, .navbar {
     padding-bottom: 0;
 }
 #logo {
+    
     width: 80px;
     border-radius: 10px;
+    padding-top: -13px;
+    border: solid 2px black;
 }
 
 .navbar-brantd {
@@ -39,7 +42,6 @@ header, .navbar {
 .navbar-expand-lg .navbar-nav .navbar-link {
     padding: 1rem .8rem;
 }
-
 
 /*Estilizando rodapé*/
 .rodape{
@@ -58,5 +60,20 @@ header, .navbar {
     padding: 5px;
   }
 
+  .rodape {
+    width: 30px;
+    height: 70%;
+}
 
+/*!--Planodefundo-->*/
+
+body{
+    color: rgb(233);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.center{
+    text-align: center;
+}
 
