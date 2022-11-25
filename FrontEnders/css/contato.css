@@ -1,0 +1,142 @@
+/* Gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.row {
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+/* Barra de Navegação*/
+header, .navbar {
+   background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  
+}
+.container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.navbar-brantd {
+    padding: 0;
+    color: #fff;
+}
+.navbar-brantd:hover {
+    color: #fff;
+}
+#navbar-links a {
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .navbar-link {
+    padding: 1rem .8rem;
+}
+
+/*Estilizando página contato*/
+
+.rodape{
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  left: 0;
+  bottom:0;
+  width:100%;
+  height: 50px;
+}
+
+.rodape-paragrafo{
+  text-align: center;
+  font-family: 'Sarala', sans-serif;
+  font-size: 14px;
+  color: black;
+  padding: 5px;
+}
+
+@media (max-width: 1200px) {
+  
+  #header {
+    padding: 0% 4% 0% 4%;
+    margin: 0px;
+  }
+
+  #logo {
+    height: 50px; 
+    width: auto;
+    border: none;
+    margin: 0px;
+  }
+}
+
+/*Pagina de contato*/
+.caixa {
+  background: white;
+  border-radius: 1px;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  flex-wrap: wrap; 
+  padding: 30px;
+}
+.colunas {
+  display: flex;
+  text-align: center;
+  
+  background: white;
+  
+}
+
+#fotos{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.colu{
+justify-content: space-evenly;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 12px;
+  border: 1px black solid;
+}
+
+.colu h2 {
+  text-align: center;
+}
+.cargo {
+  text-align: center;
+  white-space: pre;
+  
+}
+
+.conteiner {
+  padding: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mapa{
+   
+}
+
+#box-mapa{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+#endereco p{
+    font-size: 18px;
+    color: black;
+    
+} 
