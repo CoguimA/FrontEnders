@@ -69,7 +69,6 @@ header, .navbar {
 
 body{
     color: rgb(233);
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
@@ -81,8 +80,7 @@ body{
     height: 200%;
 
 }
-body{
-    background-image: url("file:///C:/Users/programadores.carioc/Desktop/FrontEnders/img/planodefundohome.jpg");
+
+.planodefundo{
     background-size: cover;
 }
-

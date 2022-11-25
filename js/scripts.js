@@ -123,3 +123,19 @@ $('#btn-login2').on('click', function (event) {
         window.location.href = 'page-produtos.html';
     }
 });
+
+//From Page Redefinir for Login (validando o email)
+$('#redsenha').on('click', function (event) {
+  event.preventDefault();
+  if (document.forms[0].email2.value == ""
+      || document.forms[0].email2.value.indexOf('@') == -1
+      || document.forms[0].email2.value.indexOf('.') == -1) {
+      alert('Por favor, informe um Email válido!');
+
+  } else {
+
+      alert('Sua nova senha foi enviada para o seu email!')
+      window.location.href = 'page-login.html';
+
+  }
+});
